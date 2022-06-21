@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.windsorChessTitle {
+    white-space: nowrap;
+    color: white;
+    position: absolute;
+    right: 47.5vw;
+    top: 38vh;
+    font-size: 90px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.windsorChessSubtitle {
+    color: white;
+    position: absolute;
+    right: 42vw;
+    top: 50vh;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.titleContainer {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.yellow {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #FFE609;
+}
+
+.yellowDark {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #e3cc00;
+}
+
+.learnMoreButton {
+    cursor: pointer;
+    color: #18191F;
+    position: absolute;
+    right: 65vw;
+    top: 66vh;
+    padding: 10px 70px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFE609;
+}
+
+.contactButton {
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    position: absolute;
+    right: 48vw;
+    top: 66vh;
+    padding: 10px 70px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.divider {
+    height: 15vh;
+}
+
+.newsContainer {
+    height: 165vh;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.newsTitle {
+    font-size: 7em;
+    font-family: 'Lato', sans-serif;
+    width: 44vw;
+    margin-left: 7.5vw;
+}
+
+.newsTitleContainer {
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsDescription {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    width: 40vw;
+    margin-left: 19.5vw;
+    padding-top: 1em;
+}
+
+.newsMainImage {
+    position: relative;
+    width: 85%;
+}
+
+.newsInformation {
+    position: relative;
+    width: 85%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsTitleDate {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.mainPostTitle {
+    font-size: 3em;
+}
+
+.mainPostDate {
+    font-size: 1.5em;
+}
+
+.newsWriting {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.mainPostDesc {
+    font-size: 1.2em;
+}
+
+.mainPostImage {
+    position: relative;
+    width: 8%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+
+
+
+.aboutContainer {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutHeadingContainer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutHeading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    width: 15vw;
+    margin-top: 1vh;
+}
+
+.aboutDescription {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 3vw;
+    width: 20vw;
+}
+
+.aboutImage {
+    width: 50%;
+}
