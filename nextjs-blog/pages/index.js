@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link';
+import NewsPost from "../components/newsPost/newsPost";
+import Navbar from "../components/navbar/navbar";
 import Image from 'next/image'
 import homeBackground from "../images/homeBackground.png";
 import temp from "../images/temp.png";
@@ -8,6 +10,7 @@ import styles from "./index.module.css";
 export default function Home() {
   return (
     <>
+      <Navbar></Navbar>
       <div className={styles.titleContainer}>
         <Image src={homeBackground} width="100%" height="60%" layout="responsive" quality="100" />
         <h2 className={styles.windsorChessTitle}>Windsor <span className={styles.yellow}>Chess</span></h2>
@@ -36,16 +39,29 @@ export default function Home() {
           </div>
 
           <div className={styles.newsWriting}>
-            <p className={styles.mainPostDesc}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea laboriosam soluta, provident sunt cum veniam earum ex omnis corrupti aut voluptatum atque neque sint at necessitatibus eveniet reiciendis qui. Maiores!</p>
-
-            <div className={styles.mainPostImage}>
-              <Image src={temp} width="30%" height="30%" layout="responsive" quality="100" />
+            <div style={styles.mainPostDescContainer}>
+              <p className={styles.mainPostDesc}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus optio, voluptatum doloremque magnam expedita porro assumenda ipsum culpa temporibus labore at nobis ullam, repudiandae neque. Esse vel sint voluptatum.
+                Veritatis esse iste dignissimos libero nostrum porro architecto consectetur sit rerum repellat corporis unde blanditiis voluptates est id reiciendis, vel ipsum. Dolores impedit ab rerum accusantium assumenda, fugit sapiente fugiat?
+                Recusandae beatae magnam provident nam nulla obcaecati mollitia exercitationem quisquam dolorem nisi, consequatur id impedit. Cumque sapiente molestiae ea eligendi, possimus quam similique dolorum, a iste illo dignissimos animi doloribus?</p>
             </div>
-            <h5>First Last</h5>
+            <div className={styles.mainPostImageName}>
+              <div className={styles.mainPostImage}>
+                <Image src={temp} width="30%" height="30%" layout="responsive" quality="100" />
+              </div>
+              <h5 className={styles.mainPostName}>First Last</h5>
+            </div>
           </div>
         </div>
 
       </div>
+
+      <hr className={styles.newsLine} />
+
+      <div className={styles.storyContainer}>
+        <NewsPost></NewsPost>
+        <NewsPost></NewsPost>
+      </div>
+
       {/* <div className={styles.aboutContainer}>
         <div className={styles.aboutHeadingContainer}>
           <h2 className={styles.aboutHeading}>
