@@ -44,6 +44,7 @@
 }
 
 .learnMoreButton {
+    font-family: 'Lato', sans-serif;
     cursor: pointer;
     color: #18191F;
     position: absolute;
@@ -57,6 +58,7 @@
 }
 
 .contactButton {
+    font-family: 'Lato', sans-serif;
     cursor: pointer;
     color: white;
     border: 2px solid white;
@@ -128,10 +130,17 @@
 }
 
 .mainPostTitle {
+    text-decoration: none;
+    color: black;
     font-size: 3em;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0px;
+}
+
+.mainPostTitle:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFE609;
 }
 
 .mainPostDate {
@@ -179,6 +188,7 @@
 }
 
 .newsLine {
+    margin-left: 10vw;
     width: 80%;
     border-top: 1px solid gray;
 }
@@ -190,55 +200,43 @@
     align-items: center;
 }
 
+.footerDivider {
+    height: 7vh;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.aboutContainer {
-    height: 65vh;
+.tournamentsOuter {
     display: flex;
+    justify-content: top;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    background-color: black;
+    height: 160vh;
+    flex-direction: column;
 }
 
-.aboutHeadingContainer {
-    width: 60%;
+.tournamentsContainer {
+    width: 88vw;
+}
+
+.tournamentTitle {
+    letter-spacing: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 5em;
+    margin-top: 7vh;
+}
+
+.tournamentsCardContainerOuter {
+    margin-top: 8vh;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
 }
 
-.aboutHeading {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    width: 15vw;
-    margin-top: 1vh;
-}
-
-.aboutDescription {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    margin-left: 3vw;
-    width: 20vw;
-}
-
-.aboutImage {
-    width: 50%;
+.tournamentsCardContainer {
+    width: 57vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5vh;
 }

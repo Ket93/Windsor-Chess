@@ -2,7 +2,10 @@ import Head from 'next/head'
 import Link from 'next/link';
 import NewsPost from "../components/newsPost/newsPost";
 import Navbar from "../components/navbar/navbar";
+import Footer from "../components/footer/footer";
+import TournamentCard from "../components/tournamentCard/tournamentCard";
 import Image from 'next/image'
+import alan from "../images/alan.jpg";
 import homeBackground from "../images/homeBackground.png";
 import temp from "../images/temp.png";
 import styles from "./index.module.css";
@@ -29,12 +32,12 @@ export default function Home() {
         </div>
 
         <div className={styles.newsMainImage}>
-          <Image src={temp} width="100%" height="50%" layout="responsive" quality="100" />
+          <a href="main_news"><Image src={alan} width="100%" height="50%" layout="responsive" quality="100" /></a>
         </div>
 
         <div className={styles.newsInformation}>
           <div className={styles.newsTitleDate}>
-            <h3 className={styles.mainPostTitle}> Here is the First News Post! </h3>
+            <a href="main_news"><h3 className={styles.mainPostTitle}> Here is the First News Post! </h3></a>
             <p className={styles.mainPostDate}> June 20th, 2022 </p>
           </div>
 
@@ -46,7 +49,7 @@ export default function Home() {
             </div>
             <div className={styles.mainPostImageName}>
               <div className={styles.mainPostImage}>
-                <Image src={temp} width="30%" height="30%" layout="responsive" quality="100" />
+                <Image src={alan} width="30%" height="30%" layout="responsive" quality="100" />
               </div>
               <h5 className={styles.mainPostName}>First Last</h5>
             </div>
@@ -62,19 +65,36 @@ export default function Home() {
         <NewsPost></NewsPost>
       </div>
 
-      {/* <div className={styles.aboutContainer}>
-        <div className={styles.aboutHeadingContainer}>
-          <h2 className={styles.aboutHeading}>
-            <span className={styles.yellowDark}>ABOUT</span> Windsor Chess
-          </h2>
-          <p className={styles.aboutDescription}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente aliquid error praesentium nam, voluptate vel blanditiis dignissimos asperiores? Quibusdam et maxime id natus possimus praesentium deleniti qui facere deserunt.
-          </p>
+      <div className={styles.footerDivider}></div>
+
+      <div className={styles.tournamentsOuter}>
+        <div className={styles.tournamentsContainer}>
+          <h2 className={styles.tournamentTitle}>Upcoming Tournaments</h2>
+
+          <div className={styles.tournamentsCardContainerOuter}>
+            <div className={styles.tournamentsCardContainer}>
+              <TournamentCard date={'June 16 2022'} time={'Starting at 5:00PM EST'} title={'TITLE'}
+                description={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et aliquam pariatur exercitationem natus! Ducimus ea pariatur, aut adipisci sapiente aperiam saepe quas, harum eveniet dolores ipsam veritatis eum, ut quo.'}
+                location={'Location: Adam\'s House'}></TournamentCard>
+              <TournamentCard date={'June 16 2022'} time={'Starting at 5:00PM EST'} title={'TITLE'}
+                description={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et aliquam pariatur exercitationem natus! Ducimus ea pariatur, aut adipisci sapiente aperiam saepe quas, harum eveniet dolores ipsam veritatis eum, ut quo.'}
+                location={'Location: Adam\'s House'}></TournamentCard>
+            </div>
+
+            <div className={styles.tournamentsCardContainer}>
+              <TournamentCard date={'June 16 2022'} time={'Starting at 5:00PM EST'} title={'TITLE'}
+                description={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et aliquam pariatur exercitationem natus! Ducimus ea pariatur, aut adipisci sapiente aperiam saepe quas, harum eveniet dolores ipsam veritatis eum, ut quo.'}
+                location={'Location: Adam\'s House'}></TournamentCard>
+              <TournamentCard date={'June 16 2022'} time={'Starting at 5:00PM EST'} title={'TITLE'}
+                description={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et aliquam pariatur exercitationem natus! Ducimus ea pariatur, aut adipisci sapiente aperiam saepe quas, harum eveniet dolores ipsam veritatis eum, ut quo.'}
+                location={'Location: Adam\'s House'}></TournamentCard>
+            </div>
+          </div>
         </div>
-        <div className={styles.aboutImage}>
-          <Image src={homeBackground} width="100%" height="71%" layout="responsive" quality="100" />
-        </div>
-      </div>  */}
+      </div>
+
+      <Footer></Footer>
+
     </>
   )
 }
