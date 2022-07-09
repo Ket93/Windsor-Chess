@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.chessTeacherContainer {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.chessTeacherContainerDark {
+    background-color: #1F232B;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.chessTeacherImage {
+    margin-left: 5vw;
+    position: relative;
+    width: 30%;
+}
+
+.chessTeacherImageDark {
+    position: relative;
+    width: 55%;
+}
+
+.chessTeacherText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35vw;
+    margin-right: 4vw;
+}
+
+
+.chessTeacherTextDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35vw;
+    margin-left: 4vw;
+}
+
+
+.chessTeacherTitle {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+.chessTeacherTitleDark {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+.chessTeacherStats {
+    font-family: 'Lato', sans-serif;
+    margin-top: 3vh;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.chessTeacherDesc {
+    font-family: 'Lato', sans-serif;
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.chessTeacherDescDark {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.chessTeacherIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 3vw;
+    margin-right: 7vh;
+}
+
+.chessTeacherIconContainerDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 3vw;
+    margin-left: 7vh;
+}
+
+.contactChessTeacherButton {
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    color: white;
+    padding: 0.5vh 3.2vw;
+    font-size: 2em;
+    border-radius: 20px;
+    margin-top: 3vh;
+    background-color: #18191F;
+}
+
+.contactChessTeacherButtonDark {
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    color: #18191F;
+    padding: 0.5vh 3.2vw;
+    font-size: 2em;
+    border-radius: 20px;
+    margin-top: 3vh;
+    background-color: #FFE609;
+}
+
+.igImage {
+    width: 120%;
+}
+
+.instaLogo {
+    font-size: 2.2vw;
+}
+
+.linkedinLogo {
+    margin-top: 3vh;
+    font-size: 2.2vw;
+}
+
+.instaLogoDark {
+    color: white;
+    font-size: 2.2vw;
+}
+
+.linkedinLogoDark {
+    color: white;
+    margin-top: 3vh;
+    font-size: 2.2vw;
+}

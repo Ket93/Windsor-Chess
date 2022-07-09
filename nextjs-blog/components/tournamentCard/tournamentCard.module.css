@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.tournamentCardContainer {
+    width: 25vw;
+    height: 50vh;
+    background-color: white;
+}
+
+.tournamentDate {
+    margin-top: 3vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3.8em;
+    color: #d1c627
+}
+
+.tournamentTime {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.tournamentTitle {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 8vh;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.tournamentDescription {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 3vh;
+    font-size: 1.2em;
+}
+
+.tournamentLocation {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 7vh;
+}

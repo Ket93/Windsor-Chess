@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.anchor:hover {
+    text-decoration: none;
+}
+
+.newsPostContainer {
+    width: 40%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.postTitle {
+    text-decoration: none;
+    line-height: 4vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2em;
+    width: 90%;
+    color: black;
+}
+
+.postTitle:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFE609;
+}
+
+.postImage {
+    position: relative;
+    width: 6%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.postImageName {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 1.3vh;
+}
+
+.postName {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1.5vw;
+    font-size: 1.5em;
+}
+
+.postDate {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
+.postDesc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}

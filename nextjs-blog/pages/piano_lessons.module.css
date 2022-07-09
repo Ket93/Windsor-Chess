@@ -1,0 +1,44 @@
+.pianoAlanImageContainer {
+    position: relative;
+    width: 100%;
+}
+
+.textContainer {
+    position: absolute;
+    right: 10vw;
+    top: 45vh;
+    width: 45vw;
+    background-color: rgb(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.alanTitle {
+    margin-top: 3vh;
+    color: white;
+    font-size: 3em;
+}
+
+.alanDescription {
+    margin-top: 3vh;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.alanContactButton {
+    margin-top: 3vh;
+    cursor: pointer;
+    color: #18191F;
+    padding: 6px 50px;
+    font-size: 2em;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFE609;
+    margin-bottom: 5vh;
+}

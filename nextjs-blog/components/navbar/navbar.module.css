@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.mainNav {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto !important;
+    padding: 0px !important;
+    height: 7vh !important;
+}
+
+.navContainer {
+    background: #18191F !important;
+    margin: 0px !important;
+    width: 100% !important;
+    max-width: none !important;
+    height: 7vh !important;
+}
+
+.navLink {
+    margin-left: 3vw !important;
+    font-size: 21px;
+    color: white !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.navDivider {
+    margin-left: 3vw !important;
+    font-size: 21px;
+    color: white !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.navLink:hover {
+    color: #bfac00 !important;
+}
+
+.navLogo {
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+}
+
+.navLinkContainer {
+    color: white !important;
+    margin-left: 33vw !important;
+}
+
+.navDrop>a {
+    margin-left: 3vw !important;
+    font-size: 21px;
+    color: white !important;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.navDrop>a:hover {
+    color: #bfac00 !important;
+    text-decoration: underline !important;
+}
+
+.navDrop>a:focus {
+    color: #bfac00 !important;
+    text-decoration: underline !important;
+}
+
+.navDrop>div {
+    background-color: #18191F !important;
+    margin-left: 1vw !important;
+    width: 12vw !important;
+}
+
+.navDropLink {
+    color: white;
+    margin-left: 1.5vw;
+    padding: 1.5vh;
+    font-size: 18px;
+}
+
+.navDropLinkTop {
+    color: white;
+    margin-left: 1.5vw;
+    padding: 1.5vh;
+    margin-top: 1vh;
+    font-size: 18px;
+}
+
+.navDropLink:hover {
+    text-decoration: none;
+    color: #bfac00 !important;
+    background-color: transparent;
+}
+
+.navDropLinkTop:hover {
+    text-decoration: none;
+    color: #bfac00 !important;
+    background-color: transparent;
+}

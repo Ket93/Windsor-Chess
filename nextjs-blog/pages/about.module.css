@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.aboutMainImage {
+    position: relative;
+    width: 100%;
+}
+
+.aboutTitle {
+    position: absolute;
+    right: 41vw;
+    top: 8.5vh;
+    font-family: 'Anton', sans-serif;
+    font-size: 7em;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.05em;
+
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35vh;
+    right: 20vw;
+}
+
+.aboutDescContainer {
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    height: 60vh;
+    box-shadow: 0px 0px 5px 5px #afafaf;
+
+}
+
+.emptySpace {
+    height: 60vh;
+}

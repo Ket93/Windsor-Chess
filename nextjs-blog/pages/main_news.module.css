@@ -1,0 +1,32 @@
+.newsContainer {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10vw;
+}
+
+.newsMainImage {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    position: relative;
+    width: 80%;
+}
+
+.newsTitle {
+    font-weight: bold;
+    font-size: 4em;
+    margin-top: 7vh;
+    text-align: center;
+}
+
+.newsInfo {
+    font-size: 1.3em;
+}
+
+.newsContent {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 5vh;
+}
